@@ -43,8 +43,7 @@ target_link_libraries(piper
     piper_phonemize
     pthread
     fmt::fmt
-    dl
-    rknnrt)
+    dl)
 
 target_include_directories(piper
     PUBLIC
